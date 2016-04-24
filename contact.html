@@ -13,7 +13,8 @@
 	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //Custom Theme files -->
-
+<!-- js -->
+<!-- <script src="js/jquery-1.11.1.min.js"></script>  -->
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <!-- //js -->	
 <!--animate-->
@@ -97,119 +98,6 @@ img{width:100%;display:inline-block;float:left;}
 			</div>	
 		</nav>		
 	</div>	
-	<!--navigation-->
-	<!--banner-->
-	<!-- Swiper -->
-	<div class="swiper-container">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide "><img src="image/2.png"></div>
-				<div class="swiper-slide"><img src="image/zone2.jpg"></div>
-				<div class="swiper-slide"><img src="image/3.png"></div>
-				<div class="swiper-slide"><img src="image/1.jpg"></div>
-			</div>
-			<!-- Add Pagination -->
-			<div class="swiper-pagination"></div>
-	</div>
-
-	<!--//banner-->
-	<!--about-->
-	<div class="about" id="about">
-		<div class="container"> 
-			<h3 class="title">Sleeping Is The Most Important Thing In Your Life <span style="font-size:14px;">人的一生睡眠是最重要的事</span></h3>
-			<div class="col-md-4 about-left wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
-				<img src="image/1.jpg" alt="" class="img-responsive" />
-			</div>
-			<div class="col-md-8 about-right wow fadeInRight animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
-				<h4>SUVARN(素万)以创造睡眠财富为己任(SleepAsWealth)，引领全世界天然健康睡眠潮流。我们苛刻的挑选最好得材料，为全世界的现代化家庭提供更天然的产品和最好得服务。</h4>
-				<p>Suvarn(素万)品牌采用德国最先进的设备，配合泰国最好的材料，结合邓禄普(DUNLOP)技术，由混合、发泡、注模冲洗、烘干等组成，并通过LGA权威认证，产品具有自然环保,无污染无毒,防螨抗菌等功效。产品的枕套与泰国刺金技术完美结合，婴儿安全级别的100%纯棉得到了德国Oeko-Textd权威的认证。</p>
-			</div>
-			<div class="clearfix"> </div>
-		</div>	
-	</div>
-	<!--//about-->
-	<!-- about-bottom -->
-	<div class="about-bottom">
-		<div class="container">
-			<div class="about-bottom-grid">
-				<h3>理念</h3>
-				<p>Suvarn latex </hr>"SLEEP AS WEALTH"</p>
-				<ul class="others">
-					<li><a href="idea.html" class="other">原料</a></li>
-					<li><a href="health.html" class="other">健康</a></li>
-					<li><a href="kepu.html" class="other">科普</a></li>
-				</ul>
-			</div>
-			<div class="about-bottom-grid1">
-				<div class='thumb'>
-					<div class='someContent'>
-					<a href="idea.html" class="other">
-						<div class='content'>乳胶原料使用泰国南部高品质的50年年龄的特种三叶橡胶数的汁液，那里年降水量平均为1000毫米。大气湿度温度为80%   </div>
-						</div>
-					</a>
-					<div class='divLeft' style='left:0px'>
-						<div class='divLeftImage' style='background:url(image/yuanliao.png) -89px 0px;'></div>
-						<div class='divLeftShadow'></div>
-					</div>
-					<div class='divRight' style='left:0px;background-image:url(image/yuanliao.png);'></div>
-				</div>
-			</div>
-			<div class="about-bottom-grid1">
-				
-				<div class='thumb'>
-					<div class='someContent'>
-					<a href="health.html" class="other">
-						<div class='content'>了解睡眠这件事，人的这一生，睡眠是最重要的事情 </div>
-					</div>
-					</a>
-					<div class='divLeft' style='left:0px'>
-						<div class='divLeftImage' style='background:url(image/jiankang.png) -89px 0px;'></div>
-						<div class='divLeftShadow'></div>
-					</div>
-					<div class='divRight' style='left:0px;background-image:url(image/jiankang.png);'></div>
-				</div>
-			
-			</div>
-			<div class="about-bottom-grid1">
-				<div class='thumb'>
-					<div class='someContent'>
-					<a href="kepu.html" class="other">
-						<div class='content'>高档乳胶床垫是新近几年逐渐流行开来的一种绿色环保家具产品，对于高档泰国乳胶床垫，我们需要了解一些什么 </div>
-						</div>
-					</a>
-					<div class='divLeft' style='left:0px'>
-						<div class='divLeftImage' style='background:url(image/kepu.png) -89px 0px;'></div>
-						<div class='divLeftShadow'></div>
-					</div>
-					<div class='divRight' style='left:0px;background-image:url(image/kepu.png);'></div>
-				</div>
-			</div>
-			<div class="clearfix"> </div>
-				<script type="text/javascript">
-					window.addEvent('domready',function(){
-					$$('div.thumb').each(function(div){
-
-						div.getElement('div.someContent').set('tween', {duration:'700'});
-						div.getElement('div.divLeft').set('tween', {duration: '450'});
-						div.getElement('div.divRight').set('tween', {duration: '450'});
-						
-						div.addEvent('mouseenter',function(e){
-							this.getElement('div.divLeft').tween('left','-70px')
-							this.getElement('div.divRight').tween('left','80px')
-							this.getElement('div.someContent').tween("background-position", "40px 0px");
-						})
-						div.addEvent('mouseleave',function(e){
-							this.getElement('div.divLeft').tween('left','0px')
-							this.getElement('div.divRight').tween('left','0px')
-							this.getElement('div.someContent').tween("background-position", "0px -167px");
-
-						})
-					})
-					})
-				</script>
-				
-		</div>
-	</div>
-
 	<div id="contact" class="contact-form pt-section">
 		<div class="container">
 			<h3 class="title">Contact <span>QQ/Wechat</span></h3>
@@ -220,9 +108,8 @@ img{width:100%;display:inline-block;float:left;}
 				<p>如果对产品有疑问或者想要购买素万枕头的亲们，请加我QQ或者微信，左侧是微信二维码，下面有我的QQ和手机。</p>
 				<ul>
 
-					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-					<a href="mailto:568657162@qq.com">568657162@qq.com</a></li>
-					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></span>13957208464</li>
+					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:568657162@qq.com">568657162@qq.com</a></li>
+					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>13957208464</li>
 				</ul>
 			</div>						
 			<div class="clearfix"> </div>
